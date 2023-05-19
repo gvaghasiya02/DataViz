@@ -1,9 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from plotly.graph_objs import Marker
 import plotly.express as px
-import matplotlib.pyplot as plt
 
 st.title("Interactive Visualisation")
 st.markdown("The data contains a substantial amount of information regarding waste categorization at SCU over 8 years from 2015 to 2023. The theme of this interactive visualization is to demonstrate various types of waste generated, how improper placement of waste in different bins and buildings, as well as the improvements made over the years.")

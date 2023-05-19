@@ -1,9 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from plotly.graph_objs import Marker
 import plotly.express as px
-import matplotlib.pyplot as plt
 
 st.title("Analysis and Conslusion")
 st.markdown("So as per analysis, most Unsegregated waste is contained in landfill bins, and people seem to confuse some sub-streams of recycling and compost thrown into the landfill bins. Almost 90% of Unsegregated waste is thrown into landfills and contains 60-70% of compost and others as recycled waste.")

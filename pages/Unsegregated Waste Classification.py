@@ -1,9 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from plotly.graph_objs import Marker
 import plotly.express as px
-import matplotlib.pyplot as plt
 
 df = pd.read_csv('assign2_wastedata.csv')
 def split_stream(stream: str):
