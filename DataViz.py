@@ -6,7 +6,7 @@ import plotly.express as px
 st.title("Interactive Visualisation")
 st.subheader("Assignment-2")
 st.caption("W1653448-Gaurav Vaghasiya")
-st.markdown("The data contains a substantial amount of information regarding waste categorization at SCU over 8 years from 2015 to 2023. The theme of this interactive visualization is to demonstrate various types of waste generated, how improper placement of waste in different bins and buildings, as well as the improvements made over the years.")
+st.markdown("The theme of this interactive visualization is to demonstrate various types of waste generated, how improper placement of waste in different bins and buildings, as well as the improvements made over the years.")
 st.markdown('<a href="/Types_of_Waste_Generated_at_SCU" target="_self">Types of Waste Generated at SCU</a>', unsafe_allow_html=True)
 st.markdown('<a href="/Unsegregated_Waste_Classification" target="_self">Unsegregated Waste Classification</a>', unsafe_allow_html=True)
 st.markdown('<a href="/Yearwise_Improvement" target="_self">Yearwise Improvement</a>', unsafe_allow_html=True)
