@@ -3,6 +3,17 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 
+st.set_page_config(
+    page_title="DataViz_Assignment-2",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+    menu_items={
+        'About': "This is a DataViz Visualization Assignment 2 by **Gaurav Vaghasiya**"
+    }
+)
+st.markdown('<a href="/" target="_self">Home</a>', unsafe_allow_html=True)
+
 st.title("Analysis and Conslusion")
 st.markdown("So as per analysis, most Unsegregated waste is contained in landfill bins, and people seem to confuse some sub-streams of recycling and compost thrown into the landfill bins. Almost 90% of Unsegregated waste is thrown into landfills and contains 60-70% of compost and others as recycled waste.")
 st.markdown("Another analysis, some of the buildings have very good segregation percentages(over 50%) like Learning Commons, Malley, and Facilities while other buildings like Benson Center, and Swig has very less segregation percentage(under 20%) but yearly it is improving.")

@@ -3,8 +3,18 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 
-st.title("Interactive Visualisation")
-st.subheader("Assignment-2")
+st.set_page_config(
+    page_title="DataViz_Assignment-2",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+    menu_items={
+        'About': "This is a DataViz Visualization Assignment 2 by **Gaurav Vaghasiya**"
+    }
+)
+st.markdown('<a href="/" target="_self">Home</a>', unsafe_allow_html=True)
+st.title("Waste Analysis of SCU")
+st.subheader("Interactive Visulization-Assignment-2")
 st.caption("W1653448-Gaurav Vaghasiya")
 st.markdown("The theme of this interactive visualization is to demonstrate various types of waste generated, how improper placement of waste in different bins and buildings, as well as the improvements made over the years.")
 st.markdown('<a href="/Types_of_Waste_Generated_at_SCU" target="_self">Types of Waste Generated at SCU</a>', unsafe_allow_html=True)

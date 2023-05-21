@@ -3,6 +3,18 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 
+
+st.set_page_config(
+    page_title="DataViz_Assignment-2",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="collapsed",
+    menu_items={
+        'About': "This is a DataViz Visualization Assignment 2 by **Gaurav Vaghasiya**"
+    }
+)
+st.markdown('<a href="/" target="_self">Home</a>', unsafe_allow_html=True)
+
 df = pd.read_csv('assign2_wastedata.csv')
 def split_stream(stream: str):
     resp = stream.split(" in ")
