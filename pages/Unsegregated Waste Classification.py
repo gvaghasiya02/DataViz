@@ -56,4 +56,5 @@ fig=px.sunburst(
     values=option, height=1000, width=1000, title="Based on "+option, color='Waste Type', color_discrete_map={'(?)':['yellow','red','orange','pink','purple'],'Landfill':'grey','Recycling':'blue', 'Compost':'green'})
 fig.update_traces(textinfo="label+percent parent+value")
 st.plotly_chart(fig,use_container_width=True, theme="streamlit")
+st.caption("*Operate through next/previous buttons to go through the story*")
 st.markdown('<br><br><p align="right"><a href="/Types_of_Waste_Generated_at_SCU" target="_self">Previous</a>&nbsp;|&nbsp;<a href="/Yearwise_Improvement" target="_self">Next</a></p>', unsafe_allow_html=True)

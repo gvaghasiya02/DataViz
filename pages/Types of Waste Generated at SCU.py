@@ -54,4 +54,5 @@ waste=Finaldf.groupby(['Building','Disposed In','Waste Type','Substream']).agg({
 fig = px.scatter(waste, x="Volume", y="Disposed In",
 	         size='Weight', color="Waste Type", hover_name="Substream", color_discrete_map={'Landfill':'grey','Recycling':'blue', 'Compost':'green'}, size_max=60)
 st.plotly_chart(fig,use_container_width=True, theme="streamlit")
+st.caption("*Operate through next/previous buttons to go through the story*")
 st.markdown('<br><br><p align="right"><a href="/" target="_self">Previous</a>&nbsp;|&nbsp;<a href="/Unsegregated_Waste_Classification" target="_self">Next</a></p>', unsafe_allow_html=True)

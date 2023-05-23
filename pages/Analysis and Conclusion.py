@@ -19,4 +19,5 @@ st.markdown("So as per analysis, most Unsegregated waste is contained in landfil
 st.markdown("Another analysis, some of the buildings have very good segregation percentages(over 50%) like Learning Commons, Malley, and Facilities while other buildings like Benson Center, and Swig has very less segregation percentage(under 20%) but yearly it is improving.")
 st.markdown("I think more awareness is needed to spread and better categorization is needed as we see people seem to confuse the substream of waste categories. Let’s say paper, for example, various forms of paper can be in recycling(print papers), and compost(paper towels).With better Categorization, we can draw the line between all 3 categories and substreams. With this, we can improve segregation for better and more sustainable SCU.")
 st.markdown('<h3 align="center">Thank You</h3>', unsafe_allow_html=True)
+st.caption("*Operate through next/previous buttons to go through the story*")
 st.markdown('<br><br><p align="right"><a href="/Yearwise_Improvement" target="_self">Previous</a></p>', unsafe_allow_html=True)

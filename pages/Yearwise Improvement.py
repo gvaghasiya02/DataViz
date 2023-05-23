@@ -53,4 +53,5 @@ fig=px.bar(
              im, x="Year", y=option, color="Status", color_discrete_map={'Segregated':'green','Unsegregated':'red'}, text=pr[option].apply(lambda x: '{0:1.2f}%'.format(x)), animation_frame='Building', range_x=[2014,2023], height=800, width=1000)
 fig.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 2000
 st.plotly_chart(fig,use_container_width=True, theme="streamlit")
+st.caption("*Operate through next/previous buttons to go through the story*")
 st.markdown('<br><br><p align="right"><a href="/Unsegregated_Waste_Classification" target="_self">Previous</a>&nbsp;|&nbsp;<a href="/Analysis_and_Conclusion" target="_self">Next</a></p>', unsafe_allow_html=True)
